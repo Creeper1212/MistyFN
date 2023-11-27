@@ -89,9 +89,9 @@ class AI:
         window.set_min_size((300, 1))
         window.read(timeout=1)
         if self.debug:
-            self.model = torch.hub.load('MistyAI/MistyFN-YOLOv5', 'custom', path='src/best.pt', force_reload=False)
+            self.model = torch.hub.load('Creeper1212/yolov5', 'custom', path='src/best.pt', force_reload=False)
         else:
-            self.model = torch.hub.load('MistyAI/MistyFN-YOLOv5', 'custom', path='src/best.pt', force_reload=True)
+            self.model = torch.hub.load('Creeper1212/yolov5', 'custom', path='src/best.pt', force_reload=True)
         window.close()
         if not torch.cuda.is_available():
             show_warning("CUDA acceleration is not available, performance will be affected.")
