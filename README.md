@@ -20,7 +20,7 @@
 
    **After installation, restart your computer.**
 
-3. Download the **latest version** from the [Green Code Button]((https://github.com/Creeper1212/MistyFN) and run the *install_requirements.bat*.
+3. Download the **latest version** from the [Green Code Button](https://github.com/Creeper1212/MistyFN) and run the *install_requirements.bat*.
    - **Don't turn off any window that shows up; everything will close automatically after installation!**
 
 4. Run **MistyFN** via the **start.vbs** file.
