@@ -7,3 +7,5 @@ PySimpleGUI==4.60.4
 requests==2.28.2
 torchvision>=0.14.1
 torch==1.13.1
+ultralytics
+ultralytics.yolo
