@@ -46,7 +46,7 @@
 
 ## Credits
 
-**MistyFN** is inspired by **[VIEaimFortnite](https://github.com/mikusgszyp/VIEaimFortnite](https://github.com/Creeper1212/VIEaimFortnite)**.
+**MistyFN** is inspired by **[VIEaimFortnite](https://github.com/Creeper1212/VIEaimFortnite)**.
 
 ## Support and Community
 
