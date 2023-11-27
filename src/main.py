@@ -20,12 +20,12 @@ debug = False
 
 def handle_presence():
     # create presence object with client id 1078786103621988424 and large image of fn
-    presence = Presence(1078786103621988424)
+    presence = Presence(1176536684280688730)
     # connect to discord
     presence.connect()
     # set presence to MistyFN title, large image of fn, and small image of MistyFN, state of version, large text of MistyFN, and button to https://github.com/MistyAI/MistyFN
     presence.update(state="MistyFN " + version, large_image="fn", large_text="MistyFN",
-                    buttons=[{"label": "GitHub", "url": "https://github.com/MistyAI/MistyFN"}], start=1)
+                    buttons=[{"label": "GitHub", "url": "https://github.com/Creeper1212/MistyFN"}], start=1)
 
 
 handle_presence()
@@ -105,7 +105,7 @@ def sensitivity_setup():
 def check_for_update():
     try:
         # make get request to github api to get latest release
-        r = requests.get("https://api.github.com/repos/MistyAI/MistyFN/releases/latest")
+        r = requests.get("https://api.github.com/repos/Creeper1212/MistyFN/releases/latest")
         # get the tag_name from the response
         latest_release = r.json()["tag_name"]
         # if the latest release is not the same as the current version, return tag name and description in json format
@@ -168,6 +168,6 @@ if __name__ == "__main__":
             f"Version {update_info['tag_name']} is available!\n\n{update_info['description']}\n",
             "Update Available", "Download on GitHub")
         if response:
-            webbrowser.open(f"https://github.com/MistyAI/MistyFN/releases/tag/{update_info['tag_name']}")
+            webbrowser.open(f"https://github.com/Creeper1212/MistyFN/releases/tag/Fortnite{update_info['tag_name']}")
             exit()
     main()
